@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modes>
+
+  <!-- fin → sma -->
+
+  <mode name="fin-sma" install="yes" gendebug="yes">
+    <pipeline>
+
+      <program name="lt-proc -w">
+        <file name="fin-sma.automorf.bin"/>
+      </program>
+
+
+      <program name="cg-proc -w -1 -n">
+        <file name="fin-sma.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="fin-sma.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="fin-sma.autolex.bin"/>
+      </program>
+
+
+      <program name="rtx-proc">
+        <file name="fin-sma.rtx.bin"/>
+      </program>
+
+      <program name="hfst-proc $1">
+	<file name="fin-sma.autogen.hfst"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <!-- sma → fin -->
+
+  <mode name="sma-fin" install="yes" gendebug="yes">
+    <pipeline>
+
+      <program name="hfst-proc --weight-classes 1 -w -e">
+	<file name="sma-fin.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="sma-fin.mor.rlx.bin"/>
+      </program>
+      <program name="cg-proc -n -1 -w">
+        <file name="sma-fin.syn.rlx.bin"/>
+      </program>
+
+
+      <program name="cg-proc -w">
+        <file name="sma-fin.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="sma-fin.prob"/>
+      </program>
+
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="sma-fin.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="sma-fin.autolex.bin"/>
+      </program>
+
+
+      <program name="rtx-proc">
+        <file name="sma-fin.rtx.bin"/>
+      </program>
+
+      <program name="lt-proc $1">
+        <file name="sma-fin.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+</modes>
+

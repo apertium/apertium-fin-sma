@@ -1,0 +1,10 @@
+{
+    "fin-sma": {
+        "input": "fin-sma-input.txt",
+        "mode": "fin-sma"
+    },
+    "sma-fin": {
+        "input": "sma-fin-input.txt",
+        "mode": "sma-fin"
+    }
+}
