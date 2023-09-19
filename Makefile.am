@@ -13,18 +13,16 @@ TARGETS_DIR1 =		\
 	$(PREFIX1).rlx.bin	\
 	$(PREFIX1).autobil.bin	\
 	$(PREFIX1).autolex.bin	\
-	$(PREFIX1).autogen.bin	\
+	$(PREFIX1).autogen.hfst	\
 	$(PREFIX1).rtx.bin
 
 TRIMMED_TARGETS_DIR1 = \
-	$(PREFIX1).automorf.bin
+	$(PREFIX1).automorf.hfst
 
 UNTRIMMED_TARGETS_DIR1 = \
-	$(PREFIX1).automorf-untrimmed.bin
+	$(PREFIX1).automorf-untrimmed.hfst
 
 TARGETS_DIR2 =		\
-	$(PREFIX2).prob		\
-	$(PREFIX2).rlx.bin	\
 	$(PREFIX2).mor.rlx.bin  \
 	$(PREFIX2).syn.rlx.bin  \
 	$(PREFIX2).autobil.bin	\
@@ -66,15 +64,12 @@ untrimmed: $(TARGETS_DIR1) $(UNTRIMMED_TARGETS_DIR1) $(TARGETS_DIR2) $(UNTRIMMED
 .deps/$(LANG1).automorf.hfst: $(AP_SRC1)/$(LANG1).automorf.att.gz .deps/.d
 	$(ZCAT) $< | hfst-txt2fst > $@
 
-$(PREFIX1).automorf-untrimmed.bin: $(AP_SRC1)/$(LANG1).automorf.att.gz
-	@$(ZCAT) $< > $@.att
-	lt-comp lr $@.att $@
-	@rm $@.att
+$(PREFIX1).automorf-untrimmed.hfst: .deps/$(LANG1).automorf.hfst
+	hfst-fst2fst -f olw -i $< -o $@
 
-$(PREFIX1).automorf.bin: .deps/$(LANG1).automorf.hfst .deps/$(PREFIX1).autobil.prefixes
-	hfst-compose-intersect -1 .deps/$(LANG1).automorf.hfst -2 .deps/$(PREFIX1).autobil.prefixes -o .deps/$(PREFIX1).automorf.trimmed
-	hfst-fst2txt -i .deps/$(PREFIX1).automorf.trimmed -o .deps/$(PREFIX1).automorf.trimmed.att
-	lt-comp lr .deps/$(PREFIX1).automorf.trimmed.att $@
+$(PREFIX1).automorf.hfst: .deps/$(LANG1).automorf.hfst .deps/$(PREFIX1).autobil.prefixes
+	hfst-compose-intersect -1 .deps/$(LANG1).automorf.hfst -2 .deps/$(PREFIX1).autobil.prefixes |\
+		hfst-fst2fst -f olw -o $@
 
 # -------------------
 # Finnish generation:
@@ -83,9 +78,6 @@ $(PREFIX1).automorf.bin: .deps/$(LANG1).automorf.hfst .deps/$(PREFIX1).autobil.p
 $(PREFIX2).autogen.hfst: $(AP_SRC1)/$(LANG1).autogen.hfst
 	cp $< $@
 
-
-$(PREFIX2).autogen.bin: $(AP_SRC1)/$(LANG1).autogen.bin
-	cp $< $@
 
 # -------------------
 # Southern Sami analysis:
@@ -119,11 +111,6 @@ $(PREFIX1).autogen.hfst: .deps/$(LANG2).autogen.hfst
 ## Tagger models
 ###############################################################################
 
-$(PREFIX1).prob: $(AP_SRC1)/$(LANG1).prob
-	cp $< $@
-
-$(PREFIX2).prob: $(AP_SRC2)/$(LANG2).prob
-	cp $< $@
 
 ###############################################################################
 ## Disambiguation rules
