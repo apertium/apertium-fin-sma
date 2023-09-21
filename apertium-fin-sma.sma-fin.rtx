@@ -4,25 +4,41 @@
 
 number = (ND sg) sg pl sp ND;
 gender = (GD m) m f mf GD;
+case = nom acc gen par ine ela ill ade abl all com abe ess ;
 det_type = def ind dem itg;
 tense = pres past fut ifi pri fti;
+person = p1 p2 p3 ;
+voice = actv pasv ;
+mood = pot ind imp ;
+comparison = (UNC pos) pos cmp sup UNC ;
 
 !!!!!!!!!!!!!!!
 !! OUTPUT PATTERNS
 !!!!!!!!!!!!!!!
 
-n: _.gender.number;
-adj: _.gender.number;
+vblex: _.<actv>.tense.mood.person.number; 
+adv: _;
+n: _.number.case;
+prn: _.number.case;
+adj: _.comparison.number.case;
 det_default: _.det_type;
 det_def: _.det_type.number;
+cnjcoo: _;
+pcle: _;
 
+ADVP: _;
+VP: _;
+AP: _;
 NP: _.number;
+CCP: _;
+PCLEP: _;
 
 !!!!!!!!!!!!!!!
 !! TAG-REWRITE RULES
 !!!!!!!!!!!!!!!
 
-tense > tense : ifi past, pri pres, fti fut;
+tense > tense : pres pri;
+case > case : acc gen ;
 
 !!!!!!!!!!!!!!!
 !! MACROS
@@ -36,6 +52,14 @@ det: (if (1.det_type = def or 1.det_type = ind)
 !!!!!!!!!!!!!!!
 !! REDUCTION RULES
 !!!!!!!!!!!!!!!
+
+VP -> vblex { 1 } ;
+NP -> n { 1 } |
+      prn { 1 } ;
+AP -> adj { 1 } ;
+ADVP -> adv { 1 } |
+        pcle { 1 } ;
+CCP -> cnjcoo { 1 } ;
 
 ! Example rule:
 ! Input:  ^ראש<n><m><sg>/hovud<n><nt><sg>$ ^גדול<adj><m><sg>/stor<adj><nt><sg>$

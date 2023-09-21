@@ -20,6 +20,9 @@
     <sdef n="ij"              c="Interjection"/>
     <sdef n="adj"             c="Adjective"/>
     <sdef n="prn"             c="Pronoun"/>
+    <sdef n="punct"             c="Punctuation"/>
+    <sdef n="clb"             c="clause boundar"/>
+    <sdef n="pcle"             c="particle"/>
 
     <sdef n="attr"            c="Attributive"/>
     <sdef n="top"             c="Toponym"/>
@@ -95,12 +98,84 @@
     <sdef n="compound-R"      c="May be the right-side of a compound, or a full word"/>
   </sdefs>
 
-   <section id="main" type="standard">
+  <section id="main" type="standard">
 
-      <e><p><l>talo<s n="n"/></l><r>gåetie<s n="n"/></r></p></e>
+    <!-- problems also mismatching poses -->
 
-      <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
-      <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
+    <e><p><l>kuitenkin<s n="adv"/></l><r>gujht<s n="pcle"/></r></p></e>
+    <e><p><l>tosiaankin<s n="adv"/></l><r>badth<s n="pcle"/></r></p></e>
+
+    <!-- pronouns -->
+
+    <e><p><l>sinä<s n="prn"/></l><r>datne<s n="prn"/></r></p></e>
+    <e><p><l>hän<s n="prn"/></l><r>dïhte<s n="prn"/></r></p></e>
+
+    <e><p><l>mikä<s n="prn"/></l><r>mij<s n="prn"/></r></p></e>
+    <e><p><l>tämä<s n="prn"/></l><r>daate<s n="prn"/></r></p></e>
+    <e><p><l>joka<s n="prn"/></l><r>mij<s n="prn"/></r></p></e>
+
+    <!-- conjunctions -->
+
+    <e><p><l>ja<s n="cnjcoo"/></l><r>jïh<s n="cnjcoo"/></r></p></e>
+
+    <!-- adverbs -->
+
+    <e><p><l>mihin<s n="adv"/></l><r>gåabph<s n="adv"/></r></p></e>
+    <e><p><l>miksi<s n="adv"/></l><r>man<s n="adv"/></r></p></e>
+    <e><p><l>miksi<s n="adv"/></l><r>man<s n="adv"/></r></p></e>
+    <e><p><l>kauan<s n="adv"/></l><r>guhkiem<s n="adv"/></r></p></e>
+    <e><p><l>tänne<s n="adv"/></l><r>daesnie<s n="adv"/></r></p></e>
+    <e><p><l>myös<s n="adv"/></l><r>aaj<s n="adv"/></r></p></e>
+    <e><p><l>juuri<s n="adv"/></l><r>eevre<s n="adv"/></r></p></e>
+
+      <!-- adjectives -->
+
+    <e c="XXX not in dictionary"><p><l>muu<s n="adj"/></l><r>jeatjah<s n="adj"/></r></p></e>
+
+    <!-- nouns -->
+
+    <e><p><l>kirja<s n="n"/></l><r>gærja<s n="n"/></r></p></e>
+    <e><p><l>filmi<s n="n"/></l><r>filme<s n="n"/></r></p></e>
+    <e><p><l>talo<s n="n"/></l><r>gåetie<s n="n"/></r></p></e>
+    <e><p><l>ruoka<s n="n"/></l><r>beapmoe<s n="n"/></r></p></e>
+    <e><p><l>kello<s n="n"/></l><r>tsåahka<s n="n"/></r></p></e>
+    <e><p><l>teko<s n="n"/></l><r>darjome<s n="n"/></r></p></e>
+    <e><p><l>aika<s n="n"/></l><r>tïjje<s n="n"/></r></p></e>
+    <e><p><l>apu<s n="n"/></l><r>viehkie<s n="n"/></r></p></e>
+
+    <!-- verbs -->
+
+      <!-- special verbs -->
+
+    <e><p><l>ei<s n="vaux"/></l><r>ij<s n="vblex"/></r></p></e>
+
+      <!-- normale verbs -->
+
+
+    <e><p><l>tarvita<s n="vblex"/></l><r>daarpesjidh<s n="vblex"/></r></p></e>
+    <e><p><l>tehdä<s n="vblex"/></l><r>darjedh<s n="vblex"/></r></p></e>
+    <e><p><l>korjata<s n="vblex"/></l><r>davvodh<s n="vblex"/></r></p></e>
+    <e><p><l>muistaa<s n="vblex"/></l><r>mujhtedh<s n="vblex"/></r></p></e>
+    <e><p><l>seisoa<s n="vblex"/></l><r>tjåadtjodh<s n="vblex"/></r></p></e>
+    <e><p><l>täytyä<s n="vblex"/></l><r>galkedh<s n="vblex"/></r></p></e>
+    <e><p><l>lukea<s n="vblex"/></l><r>lohkedh<s n="vblex"/></r></p></e>
+    <e><p><l>huilata<s n="vblex"/></l><r>lïegkestidh<s n="vblex"/></r></p></e>
+    <e c="XXX missing from sátni.org"><p><l>katsoa<s n="vblex"/></l><r>veartasjidh<s n="vblex"/></r></p></e>
+    <e><p><l>mennä<s n="vblex"/></l><r>vuelkedh<s n="vblex"/></r></p></e>
+    <e><p><l>tuoda<s n="vblex"/></l><r>buektedh<s n="vblex"/></r></p></e>
+
+    <!-- puncts -->
+
+    <e r="LR" c="apertium bugs"><p><l>..<s n="punct"/></l><r>.<s n="sent"/></r></p></e>
+    <e r="RL" c="apertium bugs"><p><l>.<s n="punct"/></l><r>..<s n="sent"/></r></p></e>
+
+    <e><p><l>.<s n="punct"/></l><r>.<s n="sent"/></r></p></e>
+    <e><p><l>@<s n="punct"/></l><r>@<s n="punct"/></r></p></e>
+    <e><p><l>@<s n="punct"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>?<s n="punct"/></l><r>?<s n="sent"/></r></p></e>
+    <e><p><l>#<s n="punct"/></l><r>#<s n="punct"/></r></p></e>
+    <e><p><l>!<s n="punct"/></l><r>!<s n="clb"/></r></p></e>
+    <e><p><l>,<s n="punct"/></l><r>,<s n="cm"/></r></p></e>
    </section>
 </dictionary>
 
