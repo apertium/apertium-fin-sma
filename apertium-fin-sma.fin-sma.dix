@@ -118,13 +118,20 @@
 
     <e><p><l>ja<s n="cnjcoo"/></l><r>jïh<s n="cnjcoo"/></r></p></e>
 
+
+    <e><p><l>niin<s n="cnjadv"/></l><r>guktie<s n="cnjsub"/></r></p></e>
+    <e><p><l>kun<s n="cnjadv"/></l><r>gosse<s n="cnjsub"/></r></p></e>
+
     <!-- adverbs -->
 
+    <e><p><l>yhdessä<s n="adv"/></l><r>ektesne<s n="adv"/></r></p></e>
+    <e><p><l>nyt<s n="adv"/></l><r>daelie<s n="adv"/></r></p></e>
     <e><p><l>mihin<s n="adv"/></l><r>gåabph<s n="adv"/></r></p></e>
     <e><p><l>miksi<s n="adv"/></l><r>man<s n="adv"/></r></p></e>
     <e><p><l>miksi<s n="adv"/></l><r>man<s n="adv"/></r></p></e>
     <e><p><l>kauan<s n="adv"/></l><r>guhkiem<s n="adv"/></r></p></e>
     <e><p><l>tänne<s n="adv"/></l><r>daesnie<s n="adv"/></r></p></e>
+    <e><p><l>missä<s n="adv"/></l><r>gusnie<s n="adv"/></r></p></e>
     <e><p><l>myös<s n="adv"/></l><r>aaj<s n="adv"/></r></p></e>
     <e><p><l>juuri<s n="adv"/></l><r>eevre<s n="adv"/></r></p></e>
 
@@ -132,8 +139,36 @@
 
     <e c="XXX not in dictionary"><p><l>muu<s n="adj"/></l><r>jeatjah<s n="adj"/></r></p></e>
 
+    <e><p><l>väliaikainen<s n="adj"/></l><r>annjebodts<s n="adj"/></r></p></e>
+
     <!-- nouns -->
 
+    <e c="?"><p><l>onglema<s n="n"/></l><r>tjoelme<s n="n"/></r></p></e>
+    <e><p><l>solmu<s n="n"/></l><r>tjoelme<s n="n"/></r></p></e>
+    <e><p><l>ryhmä<s n="n"/></l><r>dåehkie<s n="n"/></r></p></e>
+    <e><p><l>jalka<s n="n"/></l><r>juelkie<s n="n"/></r></p></e>
+    <e><p><l>eteläsaame<s n="n"/></l><r>åarjelsaemiengïele<s n="n"/></r></p></e>
+    <e><p><l>pohjoissaame<s n="n"/></l><r>noerhtesaemiengïele<s n="n"/></r></p></e>
+    <e><p><l>lapsi<s n="n"/></l><r>maana<s n="n"/></r></p></e>
+    <e><p><l>oppimateriaali<s n="n"/></l><r>learoevierhtie<s n="n"/></r></p></e>
+    <e><p><l>projekti<s n="n"/></l><r>prosjekte<s n="n"/></r></p></e>
+    <e><p><l>raito<s n="n"/></l><r>raajroe<s n="n"/></r></p></e>
+    <e><p><l>kirjoitus<s n="n"/></l><r>tjaalege<s n="n"/></r></p></e>
+    <e><p><l>kieli<s n="n"/></l><r>gïele<s n="n"/></r></p></e>
+    <e><p><l>keskus<s n="n"/></l><r>jarnge<s n="n"/></r></p></e>
+    <e><p><l>torstai<s n="n"/></l><r>duarsta<s n="n"/></r></p></e>
+    <e><p><l>perjantai<s n="n"/></l><r>bearjadahke<s n="n"/></r></p></e>
+    <e><p><l>lauantai<s n="n"/></l><r>laavvadahke<s n="n"/></r></p></e>
+    <e><p><l>kulttuuri<s n="n"/></l><r>kultuvre<s n="n"/></r></p></e>
+    <e><p><l>neuvoja<s n="n"/></l><r>bïhkedæjja<s n="n"/></r></p></e>
+    <e><p><l>kertoja<s n="n"/></l><r>soptsestæjja<s n="n"/></r></p></e>
+    <e><p><l>yöpyminen<s n="n"/></l><r>jïjjedidh<s n="n"/></r></p></e>
+    <e><p><l>ohjelma<s n="n"/></l><r>programme<s n="n"/></r></p></e>
+    <e><p><l>päivä<s n="n"/></l><r>biejjie<s n="n"/></r></p></e>
+    <e><p><l>syyskuu<s n="n"/></l><r>skïerede<s n="n"/></r></p></e>
+    <e><p><l>pesä<s n="n"/></l><r>biesie<s n="n"/></r></p></e>
+    <e><p><l>kirjoitus<s n="n"/></l><r>tjaeleme<s n="n"/></r></p></e>
+    <e><p><l>kahvi<s n="n"/></l><r>prïhtjege<s n="n"/></r></p></e>
     <e><p><l>kirja<s n="n"/></l><r>gærja<s n="n"/></r></p></e>
     <e><p><l>filmi<s n="n"/></l><r>filme<s n="n"/></r></p></e>
     <e><p><l>talo<s n="n"/></l><r>gåetie<s n="n"/></r></p></e>
@@ -142,6 +177,39 @@
     <e><p><l>teko<s n="n"/></l><r>darjome<s n="n"/></r></p></e>
     <e><p><l>aika<s n="n"/></l><r>tïjje<s n="n"/></r></p></e>
     <e><p><l>apu<s n="n"/></l><r>viehkie<s n="n"/></r></p></e>
+
+    <!-- proper nouns -->
+
+    <e><i>Solbakk<s n="np"/></i></e>
+    <e><i>Haugen<s n="np"/></i></e>
+    <e><i>John<s n="np"/></i></e>
+    <e><i>Trygve<s n="np"/></i></e>
+    <e><i>Morten<s n="np"/></i></e>
+    <e><i>Olsen<s n="np"/></i></e>
+    <e><i>Johan<s n="np"/></i></e>
+    <e><i>Jacobs<s n="np"/></i></e>
+    <e><i>Folkebibliotek<s n="np"/></i></e>
+    <e><i>Trondheim<s n="np"/></i></e>
+    <e><i>Nils<s n="np"/></i></e>
+    <e><i>Sig-Britt<s n="np"/></i></e>
+    <e><i>Parsson<s n="np"/></i></e>
+    <e><i>Persson<s n="np"/></i></e>
+    <e><i>Lena<s n="np"/></i></e>
+    <e><i>Tråante<s n="np"/></i></e>
+    <e><i>Brandsfjell<s n="np"/></i></e>
+    <e><i>Blind<s n="np"/></i></e>
+    <e><i>Helen<s n="np"/></i></e>
+    <e><i>Lisa<s n="np"/></i></e>
+    <e><i>Rensberg<s n="np"/></i></e>
+    <e><i>Pärsson<s n="np"/></i></e>
+    <e><i>Læjsa<s n="np"/></i></e>
+    <e><i>Maja<s n="np"/></i></e>
+    <e><i>Trosterud<s n="np"/></i></e>
+    <e><i>Karin<s n="np"/></i></e>
+    <e><i>Pia<s n="np"/></i></e>
+    <e><i>Maajja<s n="np"/></i></e>
+    <e><i>Trond<s n="np"/></i></e>
+    <e><i>Kappfjell<s n="np"/></i></e>
 
     <!-- verbs -->
 
@@ -152,6 +220,15 @@
       <!-- normale verbs -->
 
 
+    <e r="RL"><p><l c="saameksi">puhua<s n="vblex"/></l><r>saemiestidh<s n="vblex"/></r></p></e>
+
+    <e><p><l>sovittaa<s n="vblex"/></l><r>sjïehtesjidh<s n="vblex"/></r></p></e>
+    <e><p><l>venytellä<s n="vblex"/></l><r>seejkedidh<s n="vblex"/></r></p></e>
+    <e><p><l>työskennellä<s n="vblex"/></l><r>barkedh<s n="vblex"/></r></p></e>
+    <e><p><l>kääntää<s n="vblex"/></l><r>jarkoestidh<s n="vblex"/></r></p></e>
+    <e><p><l>ilmaantua<s n="vblex"/></l><r>jïjhtelidh<s n="vblex"/></r></p></e>
+    <e><p><l>kirjoittaa<s n="vblex"/></l><r>tjaeledh<s n="vblex"/></r></p></e>
+    <e><p><l>ehdottaa<s n="vblex"/></l><r>evtiedidh<s n="vblex"/></r></p></e>
     <e><p><l>tarvita<s n="vblex"/></l><r>daarpesjidh<s n="vblex"/></r></p></e>
     <e><p><l>tehdä<s n="vblex"/></l><r>darjedh<s n="vblex"/></r></p></e>
     <e><p><l>korjata<s n="vblex"/></l><r>davvodh<s n="vblex"/></r></p></e>
@@ -169,13 +246,24 @@
     <e r="LR" c="apertium bugs"><p><l>..<s n="punct"/></l><r>.<s n="sent"/></r></p></e>
     <e r="RL" c="apertium bugs"><p><l>.<s n="punct"/></l><r>..<s n="sent"/></r></p></e>
 
+    <e><p><l>:<s n="punct"/></l><r>:<s n="sent"/></r></p></e>
     <e><p><l>.<s n="punct"/></l><r>.<s n="sent"/></r></p></e>
     <e><p><l>@<s n="punct"/></l><r>@<s n="punct"/></r></p></e>
+    <e><p><l>–<s n="punct"/></l><r>–<s n="punct"/></r></p></e>
     <e><p><l>@<s n="punct"/></l><r>@<s n="n"/></r></p></e>
     <e><p><l>?<s n="punct"/></l><r>?<s n="sent"/></r></p></e>
     <e><p><l>#<s n="punct"/></l><r>#<s n="punct"/></r></p></e>
+    <e><p><l>"<s n="punct"/></l><r>"<s n="punct"/></r></p></e>
+    <e><p><l>“<s n="punct"/></l><r>“<s n="lquot"/></r></p></e>
+    <e><p><l>”<s n="punct"/></l><r>”<s n="punct"/></r></p></e>
+    <e><p><l>‟<s n="punct"/></l><r>‟<s n="punct"/></r></p></e>
     <e><p><l>!<s n="punct"/></l><r>!<s n="clb"/></r></p></e>
     <e><p><l>,<s n="punct"/></l><r>,<s n="cm"/></r></p></e>
+
+      <!-- digits and such -->
+
+    <e><re>[0-9]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+    <e><re>[0-9.]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
    </section>
 </dictionary>
 
