@@ -16,6 +16,7 @@
     <sdef n="cnjcoo"          c="Co-ordinating conjunction"/>
     <sdef n="cnjadv"          c="Adverbial conjunction"/>
     <sdef n="pr"              c="Preposition"/>
+    <sdef n="post"              c="Postposition"/>
     <sdef n="adv"             c="Adverb"/>
     <sdef n="ij"              c="Interjection"/>
     <sdef n="adj"             c="Adjective"/>
@@ -104,26 +105,69 @@
 
     <e><p><l>kuitenkin<s n="adv"/></l><r>gujht<s n="pcle"/></r></p></e>
     <e><p><l>tosiaankin<s n="adv"/></l><r>badth<s n="pcle"/></r></p></e>
+    <e><p><l>se<s n="det"/></l><r>doete<s n="prn"/></r></p></e>
+    <e><p><l>yksi<s n="det"/></l><r>akte<s n="num"/></r></p></e>
 
     <!-- pronouns -->
 
+    <e><p><l>minä<s n="prn"/></l><r>manne<s n="prn"/></r></p></e>
     <e><p><l>sinä<s n="prn"/></l><r>datne<s n="prn"/></r></p></e>
     <e><p><l>hän<s n="prn"/></l><r>dïhte<s n="prn"/></r></p></e>
+    <e><p><l>he<s n="prn"/></l><r>dejtie<s n="prn"/></r></p></e>
 
+    <!-- other pronouns -->
+
+    <e><p><l>molemmat<s n="prn"/></l><r>gåabpatjakh<s n="prn"/></r></p></e>
+    <e><p><l>se<s n="prn"/></l><r>dïhte<s n="prn"/></r></p></e>
     <e><p><l>mikä<s n="prn"/></l><r>mij<s n="prn"/></r></p></e>
     <e><p><l>tämä<s n="prn"/></l><r>daate<s n="prn"/></r></p></e>
+    <e><p><l>nämä<s n="prn"/></l><r>dej<s n="prn"/></r></p></e>
     <e><p><l>joka<s n="prn"/></l><r>mij<s n="prn"/></r></p></e>
+
+    <!-- numerals -->
+
+    <e><p><l>yksi<s n="num"/></l><r>akte<s n="num"/></r></p></e>
+    <e><p><l>viisi<s n="num"/></l><r>vïjhte<s n="num"/></r></p></e>
+    <e><p><l>kuusi<s n="num"/></l><r>govhte<s n="num"/></r></p></e>
 
     <!-- conjunctions -->
 
     <e><p><l>ja<s n="cnjcoo"/></l><r>jïh<s n="cnjcoo"/></r></p></e>
+    <e><p><l>mutta<s n="cnjcoo"/></l><r>mohte<s n="cnjcoo"/></r></p></e>
+    <e><p><l>tai<s n="cnjcoo"/></l><r>jallh<s n="cnjcoo"/></r></p></e>
+    <e><p><l>vai<s n="cnjcoo"/></l><r>vïj<s n="cnjcoo"/></r></p></e>
 
 
-    <e><p><l>niin<s n="cnjadv"/></l><r>guktie<s n="cnjsub"/></r></p></e>
-    <e><p><l>kun<s n="cnjadv"/></l><r>gosse<s n="cnjsub"/></r></p></e>
+    <e><p><l>että<s n="cnjsub"/></l><r>ahte<s n="cnjsub"/></r></p></e>
+    <e><p><l>niin<s n="cnjsub"/></l><r>guktie<s n="cnjsub"/></r></p></e>
+    <e><p><l>kun<s n="cnjsub"/></l><r>gosse<s n="cnjsub"/></r></p></e>
+
+    <!-- adpositions -->
+
+
+    <e><p><l>ulos<s n="post"/></l><r>sistie<s n="post"/></r></p></e>
+    <e><p><l>edessä<s n="post"/></l><r>uvte<s n="post"/></r></p></e>
+    <e><p><l>kanssa<s n="post"/></l><r>gujmie<s n="post"/></r></p></e>
+    <e><p><l>sisällä<s n="post"/></l><r>sïjse<s n="post"/></r></p></e>
 
     <!-- adverbs -->
 
+    <e><p><l>hyvin<s n="adv"/></l><r>veele<s n="adv"/></r></p></e>
+    <e><p><l>jotain<s n="adv"/></l><r>muuvh<s n="adv"/></r></p></e>
+    <e><p><l>koskaan<s n="adv"/></l><r>gåessie<s n="adv"/></r></p></e>
+    <e><p><l>taas<s n="adv"/></l><r>vihth<s n="adv"/></r></p></e>
+    <e><p><l>hitaasti<s n="adv"/></l><r>soejmi<s n="adv"/></r></p></e>
+    <e><p><l>tietenkään<s n="adv"/></l><r>hævvi<s n="adv"/></r></p></e>
+    <e><p><l>niin<s n="adv"/></l><r>darhke<s n="adv"/></r></p></e>
+    <e><p><l>nopeasti<s n="adv"/></l><r>snaebpie<s n="adv"/></r></p></e>
+    <e><p><l>kahden<s n="adv"/></l><r>tjåanghkan<s n="adv"/></r></p></e>
+    <e><p><l>aina<s n="adv"/></l><r>iktegisth<s n="adv"/></r></p></e>
+    <e><p><l>kovasti<s n="adv"/></l><r>sagke<s n="adv"/></r></p></e>
+    <e><p><l>ulkona<s n="adv"/></l><r>ålkene<s n="adv"/></r></p></e>
+    <e><p><l>silloin<s n="adv"/></l><r>dellie<s n="adv"/></r></p></e>
+    <e><p><l>erittäin<s n="adv"/></l><r>gaale<s n="adv"/></r></p></e>
+    <e><p><l>eilen<s n="adv"/></l><r>jååktan<s n="adv"/></r></p></e>
+    <e><p><l>tänään<s n="adv"/></l><r>daanbien<s n="adv"/></r></p></e>
     <e><p><l>yhdessä<s n="adv"/></l><r>ektesne<s n="adv"/></r></p></e>
     <e><p><l>nyt<s n="adv"/></l><r>daelie<s n="adv"/></r></p></e>
     <e><p><l>mihin<s n="adv"/></l><r>gåabph<s n="adv"/></r></p></e>
@@ -139,11 +183,42 @@
 
     <e c="XXX not in dictionary"><p><l>muu<s n="adj"/></l><r>jeatjah<s n="adj"/></r></p></e>
 
+    <e><p><l>iloinen<s n="adj"/></l><r>feejjene<s n="adj"/></r></p></e>
+    <e><p><l>hauska<s n="adj"/></l><r>feejjene<s n="adj"/></r></p></e>
+    <e><p><l>iso<s n="adj"/></l><r>stoere<s n="adj"/></r></p></e>
+    <e><p><l>vanha<s n="adj"/></l><r>båeries<s n="adj"/></r></p></e>
+    <e><p><l>pieni<s n="adj"/></l><r>onne<s n="adj"/></r></p></e>
+    <e><p><l>kylmä<s n="adj"/></l><r>galme<s n="adj"/></r></p></e>
+    <e><p><l>lämmin<s n="adj"/></l><r>bijveles<s n="adj"/></r></p></e>
+    <e><p><l>hyvä<s n="adj"/></l><r>buerie<s n="adj"/></r></p></e>
     <e><p><l>väliaikainen<s n="adj"/></l><r>annjebodts<s n="adj"/></r></p></e>
 
     <!-- nouns -->
 
-    <e c="?"><p><l>onglema<s n="n"/></l><r>tjoelme<s n="n"/></r></p></e>
+    <e c="?"><p><l>ongelma<s n="n"/></l><r>tjoelme<s n="n"/></r></p></e>
+
+    <e><p><l>silmä<s n="n"/></l><r>sååle<s n="n"/></r></p></e>
+    <e><p><l>sisko<s n="n"/></l><r>åabpa<s n="n"/></r></p></e>
+    <e><p><l>ikkuna<s n="n"/></l><r>glaase<s n="n"/></r></p></e>
+    <e><p><l>vesi<s n="n"/></l><r>tjatsie<s n="n"/></r></p></e>
+    <e><p><l>pää<s n="n"/></l><r>åejjie<s n="n"/></r></p></e>
+    <e><p><l>käsi<s n="n"/></l><r>gïete<s n="n"/></r></p></e>
+    <e><p><l>eläin<s n="n"/></l><r>dyjre<s n="n"/></r></p></e>
+    <e><p><l>lintu<s n="n"/></l><r>ledtie<s n="n"/></r></p></e>
+    <e><p><l>ääni<s n="n"/></l><r>tjoeje<s n="n"/></r></p></e>
+    <e><p><l>pöytä<s n="n"/></l><r>buertie<s n="n"/></r></p></e>
+    <e><p><l>vastaus<s n="n"/></l><r>vaestiedasse<s n="n"/></r></p></e>
+    <e><p><l>kysymys<s n="n"/></l><r>gyhtjelasse<s n="n"/></r></p></e>
+    <e><p><l>ihminen<s n="n"/></l><r>almetje<s n="n"/></r></p></e>
+    <e><p><l>puu<s n="n"/></l><r>moere<s n="n"/></r></p></e>
+    <e><p><l>vuosi<s n="n"/></l><r>jaepie<s n="n"/></r></p></e>
+    <e><p><l>kissa<s n="n"/></l><r>gaahtoe<s n="n"/></r></p></e>
+    <e><p><l>koira<s n="n"/></l><r>bïenjie<s n="n"/></r></p></e>
+    <e><p><l>äiti<s n="n"/></l><r>ietnie<s n="n"/></r></p></e>
+    <e><p><l>tyttö<s n="n"/></l><r>nïejte<s n="n"/></r></p></e>
+    <e><p><l>poika<s n="n"/></l><r>baernie<s n="n"/></r></p></e>
+    <e><p><l>sää<s n="n"/></l><r>daelhkie<s n="n"/></r></p></e>
+    <e><p><l>puutarha<s n="n"/></l><r>haakene<s n="n"/></r></p></e>
     <e><p><l>solmu<s n="n"/></l><r>tjoelme<s n="n"/></r></p></e>
     <e><p><l>ryhmä<s n="n"/></l><r>dåehkie<s n="n"/></r></p></e>
     <e><p><l>jalka<s n="n"/></l><r>juelkie<s n="n"/></r></p></e>
@@ -181,6 +256,8 @@
     <!-- proper nouns -->
 
     <e><i>Solbakk<s n="np"/></i></e>
+    <e><i>Jaakko<s n="np"/></i></e>
+    <e><i>Mari<s n="np"/></i></e>
     <e><i>Haugen<s n="np"/></i></e>
     <e><i>John<s n="np"/></i></e>
     <e><i>Trygve<s n="np"/></i></e>
@@ -215,13 +292,44 @@
 
       <!-- special verbs -->
 
+    <e r="LR"><p><l>ei<s n="vblex"/></l><r>ij<s n="vblex"/></r></p></e>
     <e><p><l>ei<s n="vaux"/></l><r>ij<s n="vblex"/></r></p></e>
+    <e><p><l>olla<s n="vaux"/></l><r>lea<s n="vblex"/></r></p></e>
+    <e><p><l>voida<s n="vaux"/></l><r>maehtedh<s n="vblex"/></r></p></e>
+    <e><p><l>täytyä<s n="vaux"/></l><r>tjoeredh<s n="vblex"/></r></p></e>
+
 
       <!-- normale verbs -->
 
 
     <e r="RL"><p><l c="saameksi">puhua<s n="vblex"/></l><r>saemiestidh<s n="vblex"/></r></p></e>
 
+    <e><p><l>pystyä<s n="vblex"/></l><r>maehtedh<s n="vblex"/></r></p></e>
+    <e><p><l>juosta<s n="vblex"/></l><r>roehtedh<s n="vblex"/></r></p></e>
+    <e><p><l>ajatella<s n="vblex"/></l><r>aajahtalledh<s n="vblex"/></r></p></e>
+    <e><p><l>juoda<s n="vblex"/></l><r>jovhkedh<s n="vblex"/></r></p></e>
+    <e><p><l>syödä<s n="vblex"/></l><r>byöpmedidh<s n="vblex"/></r></p></e>
+    <e><p><l>tulla<s n="vblex"/></l><r>båetedh<s n="vblex"/></r></p></e>
+    <e><p><l>nauraa<s n="vblex"/></l><r>föörhkedidh<s n="vblex"/></r></p></e>
+    <e><p><l>sanoa<s n="vblex"/></l><r>jiehtedh<s n="vblex"/></r></p></e>
+    <e><p><l>löytää<s n="vblex"/></l><r>gavnedh<s n="vblex"/></r></p></e>
+    <e><p><l>kuunnella<s n="vblex"/></l><r>ååbredidh<s n="vblex"/></r></p></e>
+    <e><p><l>kuulla<s n="vblex"/></l><r>govledh<s n="vblex"/></r></p></e>
+    <e><p><l>yrittää<s n="vblex"/></l><r>pryövedh<s n="vblex"/></r></p></e>
+    <e><p><l>puhua<s n="vblex"/></l><r>håaledh<s n="vblex"/></r></p></e>
+    <e><p><l>haluta<s n="vblex"/></l><r>sïjhtedh<s n="vblex"/></r></p></e>
+    <e><p><l>kävellä<s n="vblex"/></l><r>vaetsedh<s n="vblex"/></r></p></e>
+    <e><p><l>saada<s n="vblex"/></l><r>åadtjodh<s n="vblex"/></r></p></e>
+    <e><p><l>tietää<s n="vblex"/></l><r>dietedh<s n="vblex"/></r></p></e>
+    <e><p><l>lopettaa<s n="vblex"/></l><r>galhkedh<s n="vblex"/></r></p></e>
+    <e><p><l>kysyä<s n="vblex"/></l><r>gihtjedh<s n="vblex"/></r></p></e>
+    <e><p><l>etsiä<s n="vblex"/></l><r>ohtsedh<s n="vblex"/></r></p></e>
+    <e><p><l>laskea<s n="vblex"/></l><r>ryöknedh<s n="vblex"/></r></p></e>
+    <e><p><l>istua<s n="vblex"/></l><r>tjahkasijdh<s n="vblex"/></r></p></e>
+    <e><p><l>nähdä<s n="vblex"/></l><r>vuejnedh<s n="vblex"/></r></p></e>
+    <e><p><l>nukkua<s n="vblex"/></l><r>oeredh<s n="vblex"/></r></p></e>
+    <e><p><l>leikkiä<s n="vblex"/></l><r>spieledidh<s n="vblex"/></r></p></e>
+    <e><p><l>olla<s n="vblex"/></l><r>lea<s n="vblex"/></r></p></e>
     <e><p><l>sovittaa<s n="vblex"/></l><r>sjïehtesjidh<s n="vblex"/></r></p></e>
     <e><p><l>venytellä<s n="vblex"/></l><r>seejkedidh<s n="vblex"/></r></p></e>
     <e><p><l>työskennellä<s n="vblex"/></l><r>barkedh<s n="vblex"/></r></p></e>
